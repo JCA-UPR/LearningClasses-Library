@@ -1,13 +1,15 @@
 # LearningClasses-Library
-Defina una clase llamada BookInfo que sea un tipo de datos abstracto (ADT) para almacenar información sobre un libro. Su clase debe tener dos campos de tipo string, el primero para almacenar el nombre del autor y el segundo para almacenar el título del libro. Incluya las siguientes funciones miembro: un constructor para establecer el título del libro y el autor, un segundo constructor que establece el título del libro al pasarlo como un solo parámetro y el autor en "desconocido", y un método para obtener el autor y el título concatenados en una sola cadena C++. Escriba un programa cliente (driver program) para probar su clase creando algunos objetos de libro e imprimirlos usando sus funciones miembro.
+Define a class called BookInfo that is an abstract data type (ADT) to store information about a book. Your class must have two fields of type string, the first to store the author's name and the second to store the book title. Include the following member functions: a constructor to set the book title and author, a second constructor that sets the book title by passing it as a single parameter and the author to "unknown", and a method to get the author and title concatenated into a single C++ string. Write a driver program to test your class by creating some book objects and printing them using your member functions.
 
-Defina una nueva clase llamada UpdatedBook que herede la clase BookInfo creada antes. Esta nueva clase debe contener un campo entero para el número de edición del libro, un constructor para crear el objeto UpdatedBook aceptando como entrada el autor, el título y el número de edición del libro, y un método getter para devolver el número de edición.
+Define a new class called UpdatedBook that inherits the BookInfo class created earlier. This new class must contain an integer field for the edition number of the book, a constructor to create the UpdatedBook object accepting as input the author, title and edition number of the book, and a getter method to return the edition number.
 
-Defina otra clase llamada BookLibrary. Esta clase debe contener un campo que almacene un vector (repasar este tópico de Prog. I en sección 8.3 del libro de la clase) de objetos UpdatedBook. Su clase BookLibrary debe tener los siguientes métodos: un constructor predeterminado; un constructor que acepte un vector ya existente de objetos tipo UpdatedBook; un método para agregar un libro a la biblioteca; un método para obtener el número de libros en la biblioteca; y un método para imprimir información sobre cada libro de la biblioteca. Escriba un programa de prueba que cree una biblioteca y unos cuantos libros. Su programa debe agregar y eliminar estos libros de la biblioteca e imprimir información sobre los libros en la biblioteca.
+Define another class called BookLibrary. This class must contain a field that stores a vector (review this Prog. I topic in section 8.3 of the class book) of UpdatedBook objects. Your BookLibrary class must have the following methods: a default constructor; a constructor that accepts an existing vector of UpdatedBook objects; a method to add a book to the library; a method to get the number of books in the library; and a method to print information about each book in the library. Write a test program that creates a library and a few books. Your program should add and remove these books from the library and print information about the books in the library.
 
-Observaciones: 
+Remarks: 
 
-Subir su solución en un solo archivo cpp.
-Usar encabezados con su información y descripción del archivo. Hacer una corta descripción de cada clase antes de declararla y documentar su forma de uso. 
-Usar al menos 10 libros de ejemplo, si desea ejemplos reales, puede obtenerlos del siguiente "Dataset": https://www.kaggle.com/datasets/saurabhbagchi/books-dataset, extraer solo la información solicitada.
-Se comparará su solución con la de sus compañeros y sitios de Internet. Se recomienda escribirla desde cero con su propio estilo.  
+Upload your solution in a single cpp file.
+Use headers with your file information and description. Make a short description of each class before declaring it and document how to use it. 
+Use at least 10 example books, if you want real examples, you can get them from the following "Dataset": https://www.kaggle.com/datasets/saurabhbagchi/books-dataset, extract only the requested information.
+Your solution will be compared with that of your peers and Internet sites. It is recommended to write it from scratch in your own style.  
+
+Translated with www.DeepL.com/Translator (free version)
